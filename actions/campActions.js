@@ -7,7 +7,7 @@ import * as urls from '../constants/Urls';
 export function fetchCampList(isRefreshing,isLoadMore,loading,areaCode,sortType ,sortOrder,pageIndex,seq) {
     var data = {
         "apiVersion" : "t5.01",
-        "token":"397307a8a177d58f47c386d37e155b17",
+        "token":"*****************",
         "body" : {
             "areaCode":areaCode,//四级市代码
             "campSeq":"45027", //行销活动编码
@@ -24,12 +24,12 @@ export function fetchCampList(isRefreshing,isLoadMore,loading,areaCode,sortType 
         }
     }
     return dispatch => {
-        fetch("http://m.feiniu.com/list/queryCamp", {
+        fetch("*****************", {
             method: 'post',
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=397307a8a177d58f47c386d37e155b17"
+            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=*****************"
         })
             .then((response) => response.json())
             .then((responseData) => {
@@ -47,7 +47,7 @@ export function fetchCampList(isRefreshing,isLoadMore,loading,areaCode,sortType 
 export function fetchCampList1(isRefreshing,isLoadMore,loading,areaCode,sortType ,sortOrder,pageIndex,seq) {
     var data = {
         "apiVersion" : "t5.01",
-        "token":"397307a8a177d58f47c386d37e155b17",
+        "token":"*****************",
         "body" : {
             "areaCode":areaCode,//四级市代码
             "campSeq":"45027", //行销活动编码
@@ -64,12 +64,12 @@ export function fetchCampList1(isRefreshing,isLoadMore,loading,areaCode,sortType
         }
     }
     return dispatch => {
-        fetch("http://m.feiniu.com/list/queryCamp", {
+        fetch("*****************", {
             method: 'post',
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=397307a8a177d58f47c386d37e155b17"
+            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=*****************"
         })
             .then((response) => response.json())
             .then((responseData) => {
@@ -87,7 +87,7 @@ export function fetchCampList1(isRefreshing,isLoadMore,loading,areaCode,sortType
 export function fetchCampList2(isRefreshing,isLoadMore,loading,areaCode,sortType ,sortOrder,pageIndex,seq) {
     var data = {
         "apiVersion" : "t5.01",
-        "token":"397307a8a177d58f47c386d37e155b17",
+        "token":"*****************",
         "body" : {
             "areaCode":areaCode,//四级市代码
             "campSeq":"45027", //行销活动编码
@@ -104,12 +104,12 @@ export function fetchCampList2(isRefreshing,isLoadMore,loading,areaCode,sortType
         }
     }
     return dispatch => {
-        fetch("http://m.feiniu.com/list/queryCamp", {
+        fetch("*****************", {
             method: 'post',
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=397307a8a177d58f47c386d37e155b17"
+            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=*****************"
         })
             .then((response) => response.json())
             .then((responseData) => {
@@ -127,7 +127,7 @@ export function fetchCampList2(isRefreshing,isLoadMore,loading,areaCode,sortType
 export function fetchCampList3(isRefreshing,isLoadMore,loading,areaCode,sortType ,sortOrder,pageIndex,seq) {
     var data = {
         "apiVersion" : "t5.01",
-        "token":"397307a8a177d58f47c386d37e155b17",
+        "token":"*****************",
         "body" : {
             "areaCode":areaCode,//四级市代码
             "campSeq":"45027", //行销活动编码
@@ -144,12 +144,12 @@ export function fetchCampList3(isRefreshing,isLoadMore,loading,areaCode,sortType
         }
     }
     return dispatch => {
-        fetch("http://m.feiniu.com/list/queryCamp", {
+        fetch("*****************", {
             method: 'post',
             headers: {
                 "Content-Type": "application/x-www-form-urlencoded"
             },
-            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=397307a8a177d58f47c386d37e155b17"
+            body: "data=" + encodeURIComponent(JSON.stringify(data)) + "&paramsMD5=*****************"
         })
             .then((response) => response.json())
             .then((responseData) => {
